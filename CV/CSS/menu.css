@@ -1,0 +1,27 @@
+nav{
+    background-color: #424580;
+}
+nav ul{
+    margin: 0; /* Marge exterieure*/
+    padding: 0; /* Marge Interrieure*/
+    display: flex;
+}
+nav li{
+    list-style-type: none;
+    width: 33.3%;
+    text-align: center;
+}
+nav a{
+    display: block;
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav li:hover a{
+    padding: 15px 30px 20px 30px;
+}
+.menu:hover{
+    border-top:5px solid rgb(113, 134, 255);
+    background-color: rgb(86, 73, 204);
+}
